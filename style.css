@@ -1,0 +1,74 @@
+h1 {
+    color: #bee5f8;
+}
+
+/* General styles
+ for the section */
+section {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 15px;
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles to make links look like buttons */
+section ul li a {
+    display: inline-block;
+    background-color: #bee5f8;
+    color: #333;
+    padding: 10px 20px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-decoration: none; 
+    transition: background-color 0.3s, transform 0.2s, opacity 0.3s ease-in-out;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    opacity: 0.8;
+}
+
+/* Hover effects */
+section ul li a:hover {
+    background-color: #a7d2f3;
+    transform: translateY(-2px);
+    opacity: 0.9;
+}
+
+/* Active (click) effects */
+section ul li a:active {
+    background-color: #8fbfe8;
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.highlight {
+    background-color: #bee5f8;  /* A red background for emphasis */
+    padding-left: 3px; /*padding to fix the bug*/
+    padding-right: 2px; /*padding to fix the bug*/
+    padding-bottom: 1px;  /* padding around the content */
+    border-radius: 10px;  /* Rounded corners */
+    box-shadow: 0px 0px 8px rgba(255, 235, 59, 0.4);  /* A subtle shadow for depth */
+}
+ /* Global Styles */
+ body {
+    font-family: 'Georgia', serif;
+    margin: 0;
+    padding: 0;
+    background-color: #6b7a8b;
+}
+
+ /* Centering the main content */
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 960px) {
+    .container {
+      width: 500px;
+    }
+  }
+  
